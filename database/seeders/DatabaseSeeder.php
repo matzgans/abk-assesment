@@ -16,11 +16,11 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
 
-        // $this->call([
-        //     TeacherSeeder::class,
-        //     AssesmentTemplateSeeder::class,
-        //     AssesmentItemTemplateSeeder::class,
-        //     AssesmentStudentSeeder::class
-        // ]);
+        $this->call([
+            RoleSeeder::class,
+            UserSeeder::class,
+            SchoolSeeder::class,
+            TeacherSeeder::class,
+        ]);
     }
 }

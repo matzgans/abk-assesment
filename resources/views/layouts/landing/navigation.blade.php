@@ -15,9 +15,8 @@
             </svg>
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <button
-                class="rounded-lg bg-secondary px-9 py-2.5 text-sm font-medium text-white hover:bg-orange-700 focus:outline-none focus:ring-4 focus:ring-orange-600 dark:bg-secondary dark:hover:bg-orange-700 dark:focus:ring-orange-600"
-                type="button">Login</button>
+            <a class="rounded-lg bg-secondary px-9 py-2.5 text-sm font-medium text-white hover:bg-orange-700 focus:outline-none focus:ring-4 focus:ring-orange-600 dark:bg-secondary dark:hover:bg-orange-700 dark:focus:ring-orange-600"
+                href="{{ route('login') }}">Login</a>
         </div>
     </div>
 </nav>
