@@ -18,12 +18,18 @@
 
 <body class="font-sans antialiased">
     <div class="min-h-screen bg-gray-100">
+
+
         @include('layouts.dashboard.navigation')
+        @include('layouts.dashboard.aside')
+
+
+
 
         <!-- Page Heading -->
         @isset($header)
             <header class="bg-white shadow">
-                <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
+                <div class="ms-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
                     {{ $header }}
                 </div>
             </header>
@@ -33,7 +39,10 @@
         <main>
             {{ $slot }}
         </main>
+        @include('layouts.dashboard.footer')
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
 </body>
 
 </html>
