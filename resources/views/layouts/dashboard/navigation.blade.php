@@ -14,10 +14,9 @@
                         </path>
                     </svg>
                 </button>
-                <a class="ms-2 flex md:me-24" href="https://flowbite.com">
-                    <img class="me-3 h-8" src="https://flowbite.com/docs/images/logo.svg" alt="FlowBite Logo" />
+                <a class="ms-2 flex max-sm:hidden md:me-24" href="https://flowbite.com">
                     <span
-                        class="self-center whitespace-nowrap text-xl font-semibold dark:text-white sm:text-2xl">Flowbite</span>
+                        class="self-center whitespace-nowrap text-xl font-extrabold text-secondary dark:text-white sm:text-2xl">InklusiCare</span>
                 </a>
             </div>
             <div class="flex items-center">
